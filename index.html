@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <h5 id="date"></h2>
+      <form action="" id="form">
+        <input type="text" placeholder="City name" name="city">
+        <button type="submit" id="search-weather">Get Weather</button>
+      </form>
+    <h1 id="location"></h1>
+    <h3 id="updated-time"></h3>
+    <main>
+      <div id="container" class="container">
+        <div id="weather-info" class="column">
+          <img id="icon" />
+          <p id="weather-main"></p>
+          <p id="weather-description">partly cloudy</p>
+        </div>
+        <div id="temperature-info" class="column">
+          <h2 id="temperature"></h2>
+          <p id="feels-like-temp"></p>
+          <p id="high-low-temp"></p>
+        </div>
+        <div id="other-info" class="column">
+          <ul>
+            <li id="pressure"></li>
+            <li id="humidity"></li>
+            <li id="wind-speed"></li>
+            <li id="sunrise"></li>
+            <li id="sunset"></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

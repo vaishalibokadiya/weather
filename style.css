@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: #f7e8c7;
+  font-weight: 700;
+  color: #c31432;
+  font-size: 1.2rem;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column {
+  border: 2px solid #c31432;
+  border-radius: 5px;
+  width: 30%;
+  height: 20rem;
+}
+#location {
+  text-align: center;
+}
+#updated-time {
+  text-align: center;
+}
+#date {
+  text-align: right;
+  margin: 0;
+}
+#weather-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#weather-description {
+  font-weight: 400;
+}
+#weather-info img {
+  height: 7rem;
+  width: 7rem;
+}
+ul {
+  list-style: none;
+}
+
+#temperature-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#temperature {
+  font-size: 5rem;
+  margin: 0;
+}
+#other-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+li {
+  display: flex;
+  align-items: center;
+  height: 1.8rem;
+}
+li img {
+  height: 30px;
+  width: 30px;
+  padding: 0 10px;
+}
+#sunrise img,
+#sunset img {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+form {
+  text-align: center;
+}
+input {
+  border: 1.5px solid #c31432;
+  border-radius: 3px;
+  height: 1.5rem;
+  width: 15rem;
+  color: #d1465d;
+}
+button {
+  font-family: inherit;
+  color: #faf7f1;
+  height: 1.8rem;
+  border: 1.5px solid #c31432;
+  border-radius: 3px;
+  background-color: #d1465d;
+  font-weight: 700;
+}
+button:hover {
+  background-color: #c31432;
+  cursor: pointer;
+}
